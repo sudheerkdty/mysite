@@ -1,0 +1,10 @@
+*.pyc
+*.log
+*.pid
+*.dump
+*.sqlite3
+avatars/
+static/
+media/
+mysite/local_settings.py
+.env
