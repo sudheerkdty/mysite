@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% load staticfiles %}
+{% block title %}{% trans "Home" %}{% endblock title %}
+
+{% block breadcrumb %}{% endblock breadcrumb %}
+
+{% block content %}
+    <blockquote>
+      <h1>Hi, {{request.user}}!</h1>
+      <p>Welcome to Mysite</p>
+    </blockquote>
+{% endblock  %}
